@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Asking</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="js/service/authService.js"></script>
+    <script src="js/controller/navController.js"></script>
+    <script src="js/config/apiUrlConfig.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body ng-app="askingApp">
+    <div ui-view="nav"></div>
+    <div ui-view="container"></div>
+</body>
+
+</html>

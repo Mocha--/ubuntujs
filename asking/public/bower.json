@@ -1,0 +1,9 @@
+{
+  "name": "asking-frontend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "angular-ui-router": "~0.2.13",
+    "bootstrap": "~3.3.4"
+  }
+}

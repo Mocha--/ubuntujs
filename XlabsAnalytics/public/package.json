@@ -1,0 +1,16 @@
+{
+  "name": "XlabsAnalytics-Frontend",
+  "version": "1.0.0",
+  "description": "first try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "http-server ./ -p 8000"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
+}

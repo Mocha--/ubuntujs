@@ -1,0 +1,14 @@
+{
+  "name": "asking-frontend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node_modules/http-server/bin/http-server ./ -p 8000"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "http-server": "~0.8.0"
+  }
+}
